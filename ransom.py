@@ -25,7 +25,7 @@ with open("generated.key","wb") as generatedkey:
 
 #bu keyi kulanarak şifreleme
 
-#dosyaları tek tek alıp okuyoruz
+#dosyaları tek tek alıp okuyoruzzzz
 for file in files:
     with open(file,"rb") as the_file:
         contents = the_file.read()
